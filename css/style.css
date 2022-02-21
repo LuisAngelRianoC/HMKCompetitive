@@ -9,7 +9,7 @@ font-family: 'Ubuntu', sans-serif;
 */
 
 :root {
-  --manu-color: #263646;
+  --manu-color: #3d5063;
   --text-color: #13cd00;
 }
 
@@ -233,6 +233,55 @@ section .title::before {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+}
+
+/* #team */
+.team .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.team .carousel .card:hover {
+  background: var(--text-color);
+}
+
+.team .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.team .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.team .carousel .card .box p {
+  color: #fff;
+}
+
+.team .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 7px 0;
+}
+
+.team .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: solid 5px #13cd00;
+}
+
+.team .carousel .card:hover img {
+  border-color: #111;
 }
 
 /* Responsive media query*/
