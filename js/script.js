@@ -19,7 +19,7 @@ $(document).ready(function () {
 
   // typing animation cript
   var typed = new Typed(".typing", {
-    strings: ["Community", "Family", "Spartans!!"],
+    strings: ["Community", "Family", "Spartans!!!"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
