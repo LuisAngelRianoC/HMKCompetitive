@@ -6,10 +6,16 @@ font-family: 'Lobster', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Shizuru', cursive; 
 font-family: 'Ubuntu', sans-serif;
+
+
+#FFDB00 AMARILLO 
+#00FF0A VERDE 
+#FF1616 ROJO 
+#00F9CB AZUL 
 */
 
 :root {
-  --manu-color: #3d5063;
+  --manu-color: #263646;
   --text-color: #13cd00;
 }
 
@@ -235,7 +241,7 @@ section .title::before {
   margin: 10px 0 7px 0;
 }
 
-/* #team */
+/* #managers */
 .team .carousel .card {
   background: #222;
   border-radius: 6px;
@@ -245,7 +251,7 @@ section .title::before {
 }
 
 .team .carousel .card:hover {
-  background: var(--text-color);
+  background: #0f8d01;
 }
 
 .team .carousel .card .box {
@@ -282,6 +288,113 @@ section .title::before {
 
 .team .carousel .card:hover img {
   border-color: #111;
+}
+
+.team .owl-dot {
+  border: 2px solid #13cd00 !important;
+}
+
+/* #similar code */
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: #13cd00 !important;
+}
+
+/* 
+#FFDB00 AMARILLO 
+#00FF0A VERDE 
+#FF1616 ROJO 
+#00F9CB AZUL  
+*/
+
+/* #competitive team */
+
+.competitive {
+  background: #263646;
+  color: #fff;
+}
+
+.competitive .title::before {
+  background: #fff;
+}
+
+.competitive .carousel .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.competitive .carousel .card:hover {
+  background: #009e81;
+}
+
+.competitive .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.competitive .carousel .card:hover .box {
+  transform: scale(1.05);
+}
+
+.competitive .carousel .card .box p {
+  color: #fff;
+}
+
+.competitive .carousel .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 7px 0;
+}
+
+.competitive .carousel .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 5px #00f9cb;
+}
+
+.competitive .carousel .card:hover img {
+  border-color: #111;
+}
+
+.competitive .owl-dot {
+  border: 2px solid #00f9cb !important;
+}
+
+.competitive .owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+.competitive .owl-dot.active,
+.competitive .owl-dot:hover {
+  background: #00f9cb !important;
 }
 
 /* Responsive media query*/
