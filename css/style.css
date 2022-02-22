@@ -149,6 +149,7 @@ html {
   font-size: 25px;
   margin: 5px 0;
   font-weight: 600;
+  text-transform: none;
 }
 
 .home .home-content .text-3 span {
