@@ -191,6 +191,7 @@ section .title::before {
   align-items: center;
   justify-content: center;
 }
+
 .about .about-content .left {
   width: 45%;
 }
@@ -600,7 +601,8 @@ footer span i:hover {
   }
 
   .about .about-content .column {
-    width: 50%;
+    width: 100%;
+    text-align: center;
   }
 
   .about .about-content .left {
@@ -648,15 +650,5 @@ footer span i:hover {
 
   .community .community-content .card {
     width: 100%;
-  }
-}
-
-@media (max-width: 500px) {
-  .home .home-content .text-2 {
-    font-size: 50px;
-  }
-
-  .home .home-content .text-3 {
-    font-size: 13px;
   }
 }
