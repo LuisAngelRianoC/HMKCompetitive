@@ -7,7 +7,6 @@ font-family: 'Permanent Marker', cursive;
 font-family: 'Shizuru', cursive; 
 font-family: 'Ubuntu', sans-serif;
 
-
 #FFDB00 AMARILLO 
 #00FF0A VERDE 
 #FF1616 ROJO 
@@ -17,10 +16,6 @@ font-family: 'Ubuntu', sans-serif;
 :root {
   --manu-color: #263646;
   --text-color: #0f8d01;
-}
-
-.dark-theme {
-  --menu-color: ;
 }
 
 html {
@@ -634,12 +629,21 @@ footer span i:hover {
     padding: 0 23px;
   }
 
+  .home {
+    background: url("../img/banner.png") no-repeat;
+    background-size: auto;
+  }
+
+  .home .home-content .text-1 {
+    font-size: 20px;
+  }
+
   .home .home-content .text-2 {
     font-size: 60px;
   }
 
   .home .home-content .text-3 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .community .community-content .card {
